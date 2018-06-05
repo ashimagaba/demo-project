@@ -1,0 +1,11 @@
+c:\users\training\Source\Repos\order\order\bin\Debug\netcoreapp2.0\order.deps.json
+c:\users\training\Source\Repos\order\order\bin\Debug\netcoreapp2.0\order.runtimeconfig.json
+c:\users\training\Source\Repos\order\order\bin\Debug\netcoreapp2.0\order.runtimeconfig.dev.json
+c:\users\training\Source\Repos\order\order\bin\Debug\netcoreapp2.0\order.dll
+c:\users\training\Source\Repos\order\order\bin\Debug\netcoreapp2.0\order.pdb
+c:\users\training\Source\Repos\order\order\obj\Debug\netcoreapp2.0\order.csprojResolveAssemblyReference.cache
+c:\users\training\Source\Repos\order\order\obj\Debug\netcoreapp2.0\order.csproj.CoreCompileInputs.cache
+c:\users\training\Source\Repos\order\order\obj\Debug\netcoreapp2.0\order.AssemblyInfoInputs.cache
+c:\users\training\Source\Repos\order\order\obj\Debug\netcoreapp2.0\order.AssemblyInfo.cs
+c:\users\training\Source\Repos\order\order\obj\Debug\netcoreapp2.0\order.dll
+c:\users\training\Source\Repos\order\order\obj\Debug\netcoreapp2.0\order.pdb

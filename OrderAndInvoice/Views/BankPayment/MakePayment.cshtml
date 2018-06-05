@@ -1,0 +1,75 @@
+﻿@model MM2.Controllers.MakePaymentViewModel
+
+@{
+    ViewData["Title"] = "MakePayment";
+}
+
+<h2>MakePayment</h2>
+@{ 
+    SelectList Months = new SelectList(new string[] { "January", "February", "March", "April", "May" });
+    SelectList Years = new SelectList(new int[] { 2018, 2019, 2020, 2021, 2022, 2023, 2024 });
+}
+<h4>MakePaymentViewModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="MakePayment" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CustomerName" class="control-label"></label>
+                <input asp-for="CustomerName" class="form-control" />
+                <span asp-validation-for="CustomerName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Amount" class="control-label"></label>
+                <label asp-for="Amount" class="control-label">@Model.Amount</label>
+                <input asp-for="Amount" type="hidden" class="form-control" />
+                <span asp-validation-for="Amount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CardNumber" class="control-label"></label>
+                <input asp-for="CardNumber" class="form-control" />
+                <span asp-validation-for="CardNumber" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Month" class="control-label"></label>
+                <select name="Month" class="form-control" asp-items="@Months" >
+                    <option value="" disabled selected>--Select Month--</option>
+                </select>
+                <span asp-validation-for="Month" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Year" class="control-label"></label>
+                <select name="Year" class="form-control" asp-items="@Years">
+                    <option value="" disabled selected>--Select Year--</option>
+                </select>
+                <span asp-validation-for="Year" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CVVNumber" class="control-label"></label>
+                <input asp-for="CVVNumber" class="form-control" type="password" />
+                <span asp-validation-for="CVVNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pin" class="control-label"></label>
+                <input asp-for="Pin" class="form-control" type="password" />
+                <span asp-validation-for="Pin" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="MaKe Payment" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts
+{
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

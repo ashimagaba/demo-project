@@ -1,0 +1,11 @@
+C:\Users\Training\Source\Repos\order\OrderAndInvoice\bin\Debug\netcoreapp2.0\OrderAndInvoice.deps.json
+C:\Users\Training\Source\Repos\order\OrderAndInvoice\bin\Debug\netcoreapp2.0\OrderAndInvoice.runtimeconfig.json
+C:\Users\Training\Source\Repos\order\OrderAndInvoice\bin\Debug\netcoreapp2.0\OrderAndInvoice.runtimeconfig.dev.json
+C:\Users\Training\Source\Repos\order\OrderAndInvoice\bin\Debug\netcoreapp2.0\OrderAndInvoice.dll
+C:\Users\Training\Source\Repos\order\OrderAndInvoice\obj\Debug\netcoreapp2.0\OrderAndInvoice.csprojResolveAssemblyReference.cache
+C:\Users\Training\Source\Repos\order\OrderAndInvoice\obj\Debug\netcoreapp2.0\OrderAndInvoice.csproj.CoreCompileInputs.cache
+C:\Users\Training\Source\Repos\order\OrderAndInvoice\obj\Debug\netcoreapp2.0\OrderAndInvoice.AssemblyInfoInputs.cache
+C:\Users\Training\Source\Repos\order\OrderAndInvoice\obj\Debug\netcoreapp2.0\OrderAndInvoice.AssemblyInfo.cs
+C:\Users\Training\Source\Repos\order\OrderAndInvoice\bin\Debug\netcoreapp2.0\OrderAndInvoice.pdb
+C:\Users\Training\Source\Repos\order\OrderAndInvoice\obj\Debug\netcoreapp2.0\OrderAndInvoice.dll
+C:\Users\Training\Source\Repos\order\OrderAndInvoice\obj\Debug\netcoreapp2.0\OrderAndInvoice.pdb
